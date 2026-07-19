@@ -2,4 +2,39 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: Arial;
 }
+
+
+
+/* Navbar Style */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 20px;
+}
+
+nav ul{
+    display: flex;
+    gap: 25px;
+    list-style: none;    
+}
+
+nav ul a{
+    text-decoration: none;
+}
+
+
+.common-button{
+    background-color: #055AD5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
