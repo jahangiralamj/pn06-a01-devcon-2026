@@ -1,8 +1,21 @@
 /* Reset Style */
-* {
+*{
     margin: 0;
     padding: 0;
     font-family: Arial;
+}
+
+
+.common-button{
+    background-color: #055AD5;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
 }
 
 
@@ -12,29 +25,92 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 25px 20px;
+    padding: 35px 40px;
 }
 
 nav ul{
     display: flex;
-    gap: 25px;
+    gap: 35px;
     list-style: none;    
 }
 
-nav ul a{
+nav ul li a{
     text-decoration: none;
 }
 
 
-.common-button{
-    background-color: #055AD5;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 15px;
+
+/* Hero Section Style */
+.hero-section{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./assets/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 85vh;
+    width: 100%;
+    color: white;  
+    display: flex;
+    justify-content: center;    
+}
+
+.hero-section div{
+    text-align: center;
+}
+
+.hero-section h2{
+    margin-top: 155px;
+    padding: 25px 0;
+    font-size: 3.3rem;
     font-weight: bold;
-    font-size: 15px;
-    cursor: pointer;
+    text-align: center;
+}
+
+.make-italic{
+    font-style: italic;
+}
+
+.hero-section p{
+    margin-bottom: 180px;
+    padding: 25px 0;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+
+
+/* Speaker Section Style */
+.speaker-section{
+    display: grid;
+    justify-content: center;
+}
+
+.speaker-section h2{
+    text-align: center;
+    font-size: 45px;
+    padding: 35px 0;
+    margin-top: 25px;
+}
+
+.speaker-parent-card{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 35px;    
+}
+
+.speaker-card{
+    border: 1px solid rgb(211, 207, 207);
+    border-radius: 6px;  
+}
+
+.speaker-card p{
+    padding: 15px 0;
+    font-family: Calibri;
+    font-size: 17px;
+}
+
+.speaker-card h3{
+    font-size: 20px;
 }
 
 
