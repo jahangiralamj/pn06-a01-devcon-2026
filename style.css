@@ -197,3 +197,29 @@ nav ul li a{
     transform: scale(1.07);
 }
 
+
+
+
+/* Footer section Style */
+.footer-section{
+    background-color: #0b2744;
+    padding: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-section-divider{
+    background-color: #0b2744;
+    color: white;
+    text-align: center;
+}
+
+.footer-section-divider p{
+    padding: 15px 0;
+}
+
+.footer-right{
+    color: white;
+    font-size: 32px;
+}
+
