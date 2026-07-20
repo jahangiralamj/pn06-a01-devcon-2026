@@ -1,11 +1,12 @@
 /* Reset Style */
-*{
+* {
     margin: 0;
+    padding: 0;
     font-family: Arial;
 }
 
 
-.common-button{
+.common-button {
     background-color: #055AD5;
     color: white;
     padding: 12px 25px;
@@ -20,43 +21,43 @@
 
 
 /* Navbar Style */
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 35px 40px;
 }
 
-nav ul{
+nav ul {
     display: flex;
     gap: 35px;
-    list-style: none;    
+    list-style: none;
 }
 
-nav ul li a{
+nav ul li a {
     text-decoration: none;
 }
 
 
 
 /* Hero Section Style */
-.hero-section{
+.hero-section {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./assets/banner.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 85vh;
     width: 100%;
-    color: white;  
+    color: white;
     display: flex;
-    justify-content: center;    
+    justify-content: center;
 }
 
-.hero-section div{
+.hero-section div {
     text-align: center;
 }
 
-.hero-section h2{
+.hero-section h2 {
     margin-top: 155px;
     padding: 25px 0;
     font-size: 3.3rem;
@@ -64,11 +65,11 @@ nav ul li a{
     text-align: center;
 }
 
-.make-italic{
+.make-italic {
     font-style: italic;
 }
 
-.hero-section p{
+.hero-section p {
     margin-bottom: 180px;
     padding: 25px 0;
     font-size: 1.3rem;
@@ -78,37 +79,37 @@ nav ul li a{
 
 
 /* Speaker Section Style */
-.speaker-section{
+.speaker-section {
     display: grid;
     justify-content: center;
 }
 
-.speaker-section h2{
+.speaker-section h2 {
     text-align: center;
     font-size: 45px;
     padding: 35px 0;
     margin-top: 25px;
 }
 
-.speaker-parent-card{
+.speaker-parent-card {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    gap: 35px;    
+    gap: 35px;
 }
 
-.speaker-card{
+.speaker-card {
     border: 1px solid rgb(211, 207, 207);
-    border-radius: 6px;  
+    border-radius: 6px;
 }
 
-.speaker-card p{
+.speaker-card p {
     padding: 15px 0;
     font-family: Calibri;
     font-size: 17px;
 }
 
-.speaker-card h3{
+.speaker-card h3 {
     font-size: 20px;
 }
 
@@ -117,62 +118,62 @@ nav ul li a{
 
 
 /* Pricing section Style */
-.pricing-section{
+.pricing-section {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.pricing-heading{
+.pricing-heading {
     margin: 50px 0;
     padding: 20px 0;
     text-align: center;
 }
 
-.pricing-title{
+.pricing-title {
     font-size: 37px;
     margin-top: 55px;
 }
 
-.pricing-heading p{
-    padding: 17px 0;    
+.pricing-heading p {
+    padding: 17px 0;
     font-size: 18px;
 }
 
-.pricing-parent-card{
+.pricing-parent-card {
     display: flex;
     justify-content: space-between;
     gap: 35px;
 }
 
-.pricing-card{
+.pricing-card {
     border: 1px solid rgb(201, 199, 199);
     border-radius: 10px;
     padding: 35px 45px;
     text-align: center;
 }
 
-.pricing-card .plan-name{
+.pricing-card .plan-name {
     padding: 5px 0;
 }
 
-.pricing-card .plan-price{
+.pricing-card .plan-price {
     padding: 10px 0 4px 0;
     font-size: 35px;
 }
 
-.pricing-card .plan-seat{
+.pricing-card .plan-seat {
     margin-top: 5px;
     margin-bottom: 13px;
 }
 
-.plan-feature-list{
+.plan-feature-list {
     padding: 25px 0;
-    margin-bottom: 35px;  
-    text-align: left;  
+    margin-bottom: 35px;
+    text-align: left;
 }
 
-.pricing-button{
+.pricing-button {
     padding: 10px 45px;
     border: none;
     border-radius: 10px;
@@ -180,9 +181,10 @@ nav ul li a{
     background-color: #0064D2;
     font-weight: bold;
     font-size: 1rem;
+    cursor: pointer;
 }
 
-.pricing-button-outline{
+.pricing-button-outline {
     padding: 10px 45px;
     border: none;
     border-radius: 10px;
@@ -190,9 +192,10 @@ nav ul li a{
     background-color: white;
     font-weight: bold;
     font-size: 1rem;
+    cursor: pointer;
 }
 
-.feature-card{
+.feature-card {
     background-color: #0D1C2A;
     color: white;
     transform: scale(1.07);
@@ -202,24 +205,24 @@ nav ul li a{
 
 
 /* Footer section Style */
-.footer-section{
+.footer-section {
     background-color: #0b2744;
     padding: 45px;
     display: flex;
     justify-content: space-between;
 }
 
-.footer-section-divider{
+.footer-section-divider {
     background-color: #0b2744;
     color: white;
     text-align: center;
 }
 
-.footer-section-divider p{
+.footer-section-divider p {
     padding: 15px 0;
 }
 
-.footer-right{
+.footer-right {
     color: white;
     font-size: 32px;
 }
@@ -229,3 +232,85 @@ nav ul li a{
 
 
 /* Placeholer Section Style */
+.placeholder-section {
+    margin-top: 65px;
+}
+
+.venue-registration-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    padding: 40px 50px;
+}
+
+.venue-information {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    border: 1px solid rgb(230, 224, 224);
+    border-radius: 10px;
+    box-shadow: -15px 0 10px rgb(180, 180, 180);
+    padding: 15px;
+}
+
+.venue-name {
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.venue-address {
+    font-size: 1.2rem;
+}
+
+.venue-description {
+    font-size: 1.1rem;
+    margin-top: 45px;
+    padding: 15px;
+}
+
+
+.registration-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border: 1px solid rgb(230, 224, 224);
+    border-radius: 10px;
+    box-shadow: 15px 0 10px rgb(180, 180, 180);
+    align-items: center;
+    padding: 15px;
+}
+
+.form-title {
+    font-size: 30px;
+}
+
+.form-description {
+    font-size: 1.1rem;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+}
+
+.form-container input,
+.form-container select {
+    border: 1px solid rgb(230, 224, 224);
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 1rem;
+}
+
+.form-container label {
+    font-weight: bold;
+    margin-bottom: -5px;
+}
+
+.form-container .common-button:hover {
+    background-color: #004585;
+    color: white;
+}
+
