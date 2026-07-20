@@ -1,7 +1,6 @@
 /* Reset Style */
 *{
     margin: 0;
-    padding: 0;
     font-family: Arial;
 }
 
@@ -94,7 +93,7 @@ nav ul li a{
 .speaker-parent-card{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     gap: 35px;    
 }
 
@@ -113,4 +112,88 @@ nav ul li a{
     font-size: 20px;
 }
 
+
+
+
+
+/* Pricing section Style */
+.pricing-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pricing-heading{
+    margin: 50px 0;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.pricing-title{
+    font-size: 37px;
+}
+
+.pricing-heading p{
+    padding: 17px 0;    
+    font-size: 18px;
+}
+
+.pricing-parent-card{
+    display: flex;
+    justify-content: space-between;
+    gap: 35px;
+}
+
+.pricing-card{
+    border: 1px solid rgb(201, 199, 199);
+    border-radius: 10px;
+    padding: 35px 45px;
+    text-align: center;
+}
+
+.pricing-card .plan-name{
+    padding: 5px 0;
+}
+
+.pricing-card .plan-price{
+    padding: 10px 0 4px 0;
+    font-size: 35px;
+}
+
+.pricing-card .plan-seat{
+    margin-top: 5px;
+    margin-bottom: 13px;
+}
+
+.plan-feature-list{
+    padding: 25px 0;
+    margin-bottom: 35px;  
+    text-align: left;  
+}
+
+.pricing-button{
+    padding: 10px 45px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: #0064D2;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.pricing-button-outline{
+    padding: 10px 45px;
+    border: none;
+    border-radius: 10px;
+    color: #0064D2;
+    background-color: white;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.feature-card{
+    background-color: #0D1C2A;
+    color: white;
+    transform: scale(1.07);
+}
 
